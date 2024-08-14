@@ -1,0 +1,1299 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.41f1 (0f988161febf) revision 1022081'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 65468 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity projects\2022.3.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/rehrm/Games/pgj8game/vampgame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57627
+Successfully changed project path to: C:/Users/rehrm/Games/pgj8game/vampgame
+C:/Users/rehrm/Games/pgj8game/vampgame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15768]  Target information:
+
+Player connection [15768]  * "[IP] 10.0.0.86 [Port] 0 [Flags] 2 [Guid] 1059930794 [EditorId] 1059930794 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PVQ42A6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15768] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15768] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 29.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.41f1 (0f988161febf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rehrm/Games/pgj8game/vampgame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12110 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017761 seconds.
+- Loaded All Assemblies, in  0.701 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling: 1185ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (248ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.537 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.122 seconds
+Domain Reload Profiling: 2647ms
+	BeginReloadAssembly (330ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1007ms)
+		LoadAssemblies (720ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (475ms)
+			TypeCache.Refresh (409ms)
+				TypeCache.ScanAssembly (380ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1122ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (878ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (532ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 9.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5666 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.9 MB). Loaded Objects now: 6118.
+Memory consumption went from 215.3 MB to 214.4 MB.
+Total: 7.366900 ms (FindLiveObjects: 0.843200 ms CreateObjectMapping: 0.694400 ms MarkObjects: 5.270900 ms  DeleteObjects: 0.556300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.865 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.353 seconds
+Domain Reload Profiling: 4210ms
+	BeginReloadAssembly (2086ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (1744ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (683ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1353ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (933ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (576ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 10.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5529 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (0.9 MB). Loaded Objects now: 6125.
+Memory consumption went from 193.1 MB to 192.2 MB.
+Total: 7.678500 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 1.020800 ms MarkObjects: 5.629500 ms  DeleteObjects: 0.557600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 1bc12bc9370e727baa54e145392501fb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1f996920f4c335fb5292853183f5855f -> 
+========================================================================
+Received Import Request.
+  Time since last request: 644313.939097 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd065eba3b214dda2af957cca01e3f16e') in 1.506542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/LazyInitializer.cs
+  artifactKey: Guid(cf8f13d9c08dc12469e56f4e9d2ca644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/LazyInitializer.cs using Guid(cf8f13d9c08dc12469e56f4e9d2ca644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b743c973851bc8cd65a84fd71846907') in 0.036330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.AsyncIO.pdb
+  artifactKey: Guid(02a2d49160c1fe440b84a4efad4c2706) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.AsyncIO.pdb using Guid(02a2d49160c1fe440b84a4efad4c2706) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab6e02ec1ef7ffe898394a2d6c7676aa') in 0.018067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.pdb
+  artifactKey: Guid(889db5eb0dea987469c1c8bd90d31364) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.pdb using Guid(889db5eb0dea987469c1c8bd90d31364) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7a16ad8873ef4799ada7e0c61cb3b3df') in 0.019788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Logger/CommonTools.cs
+  artifactKey: Guid(50ef38cc764945245b6a70707a941b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/Logger/CommonTools.cs using Guid(50ef38cc764945245b6a70707a941b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ca00b2cf106198985252e6cd251450f5') in 0.050630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.YamlDotNet.deps.json
+  artifactKey: Guid(111c579c51d80b345a1d5bb2033a5109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.YamlDotNet.deps.json using Guid(111c579c51d80b345a1d5bb2033a5109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f628ed38c9b6f86fbcb7ed1c43da150e') in 0.030773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002142 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.dll
+  artifactKey: Guid(4b59cc48b9fdc72408eeafadcb383ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.dll using Guid(4b59cc48b9fdc72408eeafadcb383ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5914f30f0922fc76d4bdcc4e9831669c') in 0.058169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5ba8d5e471fbcddb25217729a80be6fe') in 0.131844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Preferences/PreferenceStorageAccessor.cs
+  artifactKey: Guid(d0c36e303a5d46b4e80991e3c542bf26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/Preferences/PreferenceStorageAccessor.cs using Guid(d0c36e303a5d46b4e80991e3c542bf26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5cc83665f5a05fd67fce91161ea47a15') in 0.039963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003657 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/TinyJson/JsonWriter.cs
+  artifactKey: Guid(8dd5f9b69a727ce44a18815c83f2f192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/TinyJson/JsonWriter.cs using Guid(8dd5f9b69a727ce44a18815c83f2f192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a1e5a9ba8ee8513c662dd1eeba0c9624') in 0.029157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile.deps.json
+  artifactKey: Guid(e04a24cf77f2bba4f8a346967197a38b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile.deps.json using Guid(e04a24cf77f2bba4f8a346967197a38b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9e089535d641ea41b9a3a96b8f830fe7') in 0.022532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/NetMQPublisher.cs
+  artifactKey: Guid(6f3c3e7501dadc94db2eab3338a65fcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/NetMQPublisher.cs using Guid(6f3c3e7501dadc94db2eab3338a65fcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a007068387bb71b12e1a3bcee44ed5e4') in 0.022593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.YamlDotNet.xml
+  artifactKey: Guid(cb6ced660b964ad4c9144ab9fdb08440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.YamlDotNet.xml using Guid(cb6ced660b964ad4c9144ab9fdb08440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0b1e057a6d91d137a44acc1271402eff') in 0.137684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorWindowCoroutineExtension.cs
+  artifactKey: Guid(8cad06803a03e1941a337433f96ab306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorWindowCoroutineExtension.cs using Guid(8cad06803a03e1941a337433f96ab306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '392ccef0746c88d6f214451422ed25ea') in 0.020841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/CodeAssist/CHANGELOG.TXT
+  artifactKey: Guid(7ee294b03f4a74746bf63876f25bc2b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/CHANGELOG.TXT using Guid(7ee294b03f4a74746bf63876f25bc2b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '879e409a6824b3bd7f387a73d8457a59') in 0.015717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NetMQ.xml
+  artifactKey: Guid(aade1c0f357751247a80041e2fb312ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NetMQ.xml using Guid(aade1c0f357751247a80041e2fb312ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '77ee1c58ff3ae455108510516eaee45a') in 0.073735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/TinyJson/JsonParser.cs
+  artifactKey: Guid(db70262dbc4eb964f8455bd71393de93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/TinyJson/JsonParser.cs using Guid(db70262dbc4eb964f8455bd71393de93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c4058b84c05b0bacd1d7eb3d34ef258') in 0.021506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorWaitForSeconds.cs
+  artifactKey: Guid(d19c0f52ff26e52469eb01604c716a63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorWaitForSeconds.cs using Guid(d19c0f52ff26e52469eb01604c716a63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '736518b92a9bc174d4cb1718822f43d5') in 0.027328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NetMQ.dll
+  artifactKey: Guid(a52d85a3c7e053a499dcd4332b2d89cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NetMQ.dll using Guid(a52d85a3c7e053a499dcd4332b2d89cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0789087b734b924c482800f96e00c2c8') in 0.038731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NaCl.xml
+  artifactKey: Guid(d6877d35c68057c4b9354499ba08ac61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NaCl.xml using Guid(d6877d35c68057c4b9354499ba08ac61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c15ba71d6d5698575adcda8da8cdf914') in 0.094454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/SystemBinariesForDotNetStandard20.unitypackage
+  artifactKey: Guid(c8911d570ccac364581ec826f3fa76b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/SystemBinariesForDotNetStandard20.unitypackage using Guid(c8911d570ccac364581ec826f3fa76b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '05f2a2dedc4fc8d2e81411787f5afb22') in 0.028848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Preferences/RegistryMonitor.cs
+  artifactKey: Guid(3162cb4dd57e498488c953c19ed61d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/Preferences/RegistryMonitor.cs using Guid(3162cb4dd57e498488c953c19ed61d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e8a308a7363b613df3106e9c3cbf58c3') in 0.041955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.deps.json
+  artifactKey: Guid(d94a4d1bb24c9984c9a8e6cbea91636f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.deps.json using Guid(d94a4d1bb24c9984c9a8e6cbea91636f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6eaa54f73d63689cbebdb38d11909b4') in 0.064883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001499 seconds.
+  path: Assets/Plugins/CodeAssist/README.TXT
+  artifactKey: Guid(9ed1a0565c5bacd4ab6c54d04f34f66c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/README.TXT using Guid(9ed1a0565c5bacd4ab6c54d04f34f66c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8dd2bd1697fc07887df7fe335cb31238') in 0.101059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000950 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile.dll
+  artifactKey: Guid(2fbc43b75977c5240aaf2e556a029a2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile.dll using Guid(2fbc43b75977c5240aaf2e556a029a2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ddc33c37d1d43d914705f407e8f8a4a') in 0.052076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Logger/UnitySink.cs
+  artifactKey: Guid(fdc97c9f519d29c48b9e446b8fbfad5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/Logger/UnitySink.cs using Guid(fdc97c9f519d29c48b9e446b8fbfad5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4a8d2c0440c31bd13ff213512a804b69') in 0.050025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NaCl.pdb
+  artifactKey: Guid(197fa527b5abe6b48aa9495c0c7e3ee9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NaCl.pdb using Guid(197fa527b5abe6b48aa9495c0c7e3ee9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '76f1b4fde8697413dce494d8bfd544c3') in 0.051549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001549 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Input/UnityInputManager.cs
+  artifactKey: Guid(c0dae8b8625067f41a577644e3ba2f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/Input/UnityInputManager.cs using Guid(c0dae8b8625067f41a577644e3ba2f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5308d014dc21f69907457fdc757feb32') in 0.060658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/CodeAssistAssembly.asmdef
+  artifactKey: Guid(5e6092608918b084ca2ebd377943d81b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/CodeAssistAssembly.asmdef using Guid(5e6092608918b084ca2ebd377943d81b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '19ff43388ac9840a73acfe3c4ff64a99') in 0.083208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorCoroutineUtility.cs
+  artifactKey: Guid(303c361eef93da64c914cf55fb8e7c3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorCoroutineUtility.cs using Guid(303c361eef93da64c914cf55fb8e7c3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'daa04ec2217f6c396c77bc1548f313f3') in 0.050986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/csc.rsp
+  artifactKey: Guid(292b79213110ae3418175cfff0e4287d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/csc.rsp using Guid(292b79213110ae3418175cfff0e4287d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd7280bcde3085b1f79946c596578d5a5') in 0.023997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Monitor.cs
+  artifactKey: Guid(47cc7898a856a4240945ea22f250b429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/Monitor.cs using Guid(47cc7898a856a4240945ea22f250b429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b94a1315b63636598a0fa5656411aa4d') in 0.044980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001204 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/NetMQInitializer.cs
+  artifactKey: Guid(3f9a1cff828709e4590175711135207f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/NetMQInitializer.cs using Guid(3f9a1cff828709e4590175711135207f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '81866cca775e2c54b1ff5978a1d2c495') in 0.059754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Input/Text2Yaml.cs
+  artifactKey: Guid(31bff07fb8a57e64f8589e6695d5c220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/Input/Text2Yaml.cs using Guid(31bff07fb8a57e64f8589e6695d5c220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8e2214380a4a2aa2e1afa7aafe70506d') in 0.036115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.YamlDotNet.pdb
+  artifactKey: Guid(5581aed0d97f2294c979dae19d8e09b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.YamlDotNet.pdb using Guid(5581aed0d97f2294c979dae19d8e09b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e9e8b29072d6a4a0a03a48220343a634') in 0.026580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.882 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.685 seconds
+Domain Reload Profiling: 4554ms
+	BeginReloadAssembly (569ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (254ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1113ms)
+		LoadAssemblies (998ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (239ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1084ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (651ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 13.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.9 MB). Loaded Objects now: 6161.
+Memory consumption went from 194.3 MB to 193.4 MB.
+Total: 8.925100 ms (FindLiveObjects: 0.615500 ms CreateObjectMapping: 0.780100 ms MarkObjects: 6.773700 ms  DeleteObjects: 0.754100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NetMQPublisher.cs: e41cae8b306c4e80834941db5e54bf4f -> 
+  custom:scripting/monoscript/fileName/Monitor.cs: 5bb953e66b355df950735459a3e63f5d -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile: f9f6d4f71239205fa5cc093ab0e3407b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnityInputManager.cs: fd4ab10cd8b42640792fb824a33f4bf0 -> 
+  custom:scripting/monoscript/fileName/Text2Yaml.cs: 089f6fdeeba09f1b3353b00bf8a6d240 -> 
+  custom:scripting/monoscript/fileName/RegistryMonitor.cs: d0b29158d7fd3272be0638e395924608 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UnitySink.cs: caaf2e076a1a93c61a227e7104270a42 -> 
+  custom:scripting/monoscript/fileName/JsonParser.cs: 3d8ca19cf12654ee88d92c4431be821c -> 
+  custom:scripting/monoscript/fileName/MainThreadDispatcher.cs: 5a5a80e912004c6f16c766fe6b72c10f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog: c722fe5f56fb92ea5057d52c550f9d3e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 40f97ae5c7577c2b25ebec4edba4c0cd -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 7b853e46e47daf3f3e2c04b55aa43046 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.YamlDotNet: 83f2883553a8b3bfe60611f2390ceaa5 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.SynchronizerModel: d1ae5fc96f8749ad9711a9713d2fb563 -> 
+  custom:scripting/monoscript/fileName/AboutWindow.cs: 2ddbbd3da103110464df928b5ad7a791 -> 
+  custom:scripting/monoscript/fileName/ScriptFinder.cs: f05960da2883787316ffcdc776da5c36 -> 
+  custom:scripting/monoscript/fileName/ELogger.cs: 092f2adee158289d5761f8c5140463b8 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetMQInitializer.cs: 780e85c15c086938cda4bccbab1503e7 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CommonTools.cs: 3f1a5964c05d8a2cc348f41d9ddaf03c -> 
+  custom:scripting/monoscript/fileName/Binary2TextExec.cs: f9ad1adf660f075d6d8910673cb8e6ec -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.AsyncIO: eea8123eed12402e0b15ed5aeaba5db4 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NaCl: 0133ba83573d4e714eb252103ea9a85c -> 
+  custom:scripting/monoscript/fileName/InputManagerMonitor.cs: 428914c47f891985addf9eb30f31c607 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 4368115f15e0f7d70e2cde328f147548 -> 
+  custom:scripting/monoscript/fileName/DomainHashEnricher.cs: df4c63a37949740dcfc206978453ed1d -> 
+  custom:scripting/monoscript/fileName/PreferenceStorageAccessor.cs: 19a7de6e406f4ba5a4b4dde6c5634732 -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 3edd23c000574571dee2682e2ec930ff -> 
+  custom:scripting/monoscript/fileName/PreferenceMonitor.cs: 421d87bb944dbe4fd6d950727065c991 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PreferenceEntryHolder.cs: 1674d4fb2045280b39d063f53e5cb0f3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LazyInitializer.cs: 7d38f1d4ba03d94066824c634fba2979 -> 
+  custom:scripting/monoscript/fileName/StatusWindow.cs: 46821b2dc1a8f1195d0734848366e465 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NetMQ: 26f9009c155c2fc50e3e56568144cf87 -> 
+  custom:scripting/monoscript/fileName/FeedbackWindow.cs: ca6229df936cd80a6e564756a2587d81 -> 
+  custom:scripting/monoscript/fileName/UnityClassExtensions.cs: 50b4288c4728ff49c546e7dd2d3845e9 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: 1db8cc9d36e46ac2b49c63615175ed70 -> 
+  custom:scripting/monoscript/fileName/Assister.cs: 4f9f2b876aaa0d4382b75d7aa5f1fd6c -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 1bc12bc9370e727baa54e145392501fb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MemorySink.cs: b7537a87381f3033c444a9b4df748230 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1f996920f4c335fb5292853183f5855f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.CodeAssist.Editor: f2f68078edce31ee7712c7f871a8b973 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.260 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.385 seconds
+Domain Reload Profiling: 3631ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (680ms)
+		LoadAssemblies (781ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1055ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (730ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 11.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.9 MB). Loaded Objects now: 6166.
+Memory consumption went from 194.3 MB to 193.5 MB.
+Total: 16.278500 ms (FindLiveObjects: 0.479300 ms CreateObjectMapping: 0.483500 ms MarkObjects: 14.733800 ms  DeleteObjects: 0.580000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NetMQPublisher.cs: e41cae8b306c4e80834941db5e54bf4f -> 
+  custom:scripting/monoscript/fileName/Monitor.cs: 5bb953e66b355df950735459a3e63f5d -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile: f9f6d4f71239205fa5cc093ab0e3407b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnityInputManager.cs: fd4ab10cd8b42640792fb824a33f4bf0 -> 
+  custom:scripting/monoscript/fileName/Text2Yaml.cs: 089f6fdeeba09f1b3353b00bf8a6d240 -> 
+  custom:scripting/monoscript/fileName/RegistryMonitor.cs: d0b29158d7fd3272be0638e395924608 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UnitySink.cs: caaf2e076a1a93c61a227e7104270a42 -> 
+  custom:scripting/monoscript/fileName/JsonParser.cs: 3d8ca19cf12654ee88d92c4431be821c -> 
+  custom:scripting/monoscript/fileName/MainThreadDispatcher.cs: 5a5a80e912004c6f16c766fe6b72c10f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog: c722fe5f56fb92ea5057d52c550f9d3e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 40f97ae5c7577c2b25ebec4edba4c0cd -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 7b853e46e47daf3f3e2c04b55aa43046 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.YamlDotNet: 83f2883553a8b3bfe60611f2390ceaa5 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.SynchronizerModel: d1ae5fc96f8749ad9711a9713d2fb563 -> 
+  custom:scripting/monoscript/fileName/AboutWindow.cs: 2ddbbd3da103110464df928b5ad7a791 -> 
+  custom:scripting/monoscript/fileName/ScriptFinder.cs: f05960da2883787316ffcdc776da5c36 -> 
+  custom:scripting/monoscript/fileName/ELogger.cs: 092f2adee158289d5761f8c5140463b8 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetMQInitializer.cs: 780e85c15c086938cda4bccbab1503e7 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CommonTools.cs: 3f1a5964c05d8a2cc348f41d9ddaf03c -> 
+  custom:scripting/monoscript/fileName/Binary2TextExec.cs: f9ad1adf660f075d6d8910673cb8e6ec -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.AsyncIO: eea8123eed12402e0b15ed5aeaba5db4 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NaCl: 0133ba83573d4e714eb252103ea9a85c -> 
+  custom:scripting/monoscript/fileName/InputManagerMonitor.cs: 428914c47f891985addf9eb30f31c607 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 4368115f15e0f7d70e2cde328f147548 -> 
+  custom:scripting/monoscript/fileName/DomainHashEnricher.cs: df4c63a37949740dcfc206978453ed1d -> 
+  custom:scripting/monoscript/fileName/PreferenceStorageAccessor.cs: 19a7de6e406f4ba5a4b4dde6c5634732 -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 3edd23c000574571dee2682e2ec930ff -> 
+  custom:scripting/monoscript/fileName/PreferenceMonitor.cs: 421d87bb944dbe4fd6d950727065c991 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PreferenceEntryHolder.cs: 1674d4fb2045280b39d063f53e5cb0f3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LazyInitializer.cs: 7d38f1d4ba03d94066824c634fba2979 -> 
+  custom:scripting/monoscript/fileName/StatusWindow.cs: 46821b2dc1a8f1195d0734848366e465 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NetMQ: 26f9009c155c2fc50e3e56568144cf87 -> 
+  custom:scripting/monoscript/fileName/FeedbackWindow.cs: ca6229df936cd80a6e564756a2587d81 -> 
+  custom:scripting/monoscript/fileName/UnityClassExtensions.cs: 50b4288c4728ff49c546e7dd2d3845e9 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: 1db8cc9d36e46ac2b49c63615175ed70 -> 
+  custom:scripting/monoscript/fileName/Assister.cs: 4f9f2b876aaa0d4382b75d7aa5f1fd6c -> 
+  custom:scripting/monoscript/fileName/Movement.cs: f4b8b2d2a1de9c50c30687c0a002a10c -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MemorySink.cs: b7537a87381f3033c444a9b4df748230 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4ceedb7d1618f0d8df90336f2e30acde -> 
+  custom:scripting/precompiled-assembly-types:Meryel.CodeAssist.Editor: f2f68078edce31ee7712c7f871a8b973 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.490 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.600 seconds
+Domain Reload Profiling: 4070ms
+	BeginReloadAssembly (354ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (129ms)
+	RebuildNativeTypeToScriptingClass (75ms)
+	initialDomainReloadingComplete (150ms)
+	LoadAllAssembliesAndSetupDomain (761ms)
+		LoadAssemblies (851ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2601ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1009ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (265ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 14.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.9 MB). Loaded Objects now: 6171.
+Memory consumption went from 194.3 MB to 193.5 MB.
+Total: 5.809700 ms (FindLiveObjects: 0.588800 ms CreateObjectMapping: 0.520700 ms MarkObjects: 4.150400 ms  DeleteObjects: 0.548000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NetMQPublisher.cs: e41cae8b306c4e80834941db5e54bf4f -> 
+  custom:scripting/monoscript/fileName/Monitor.cs: 5bb953e66b355df950735459a3e63f5d -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile: f9f6d4f71239205fa5cc093ab0e3407b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnityInputManager.cs: fd4ab10cd8b42640792fb824a33f4bf0 -> 
+  custom:scripting/monoscript/fileName/Text2Yaml.cs: 089f6fdeeba09f1b3353b00bf8a6d240 -> 
+  custom:scripting/monoscript/fileName/RegistryMonitor.cs: d0b29158d7fd3272be0638e395924608 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UnitySink.cs: caaf2e076a1a93c61a227e7104270a42 -> 
+  custom:scripting/monoscript/fileName/JsonParser.cs: 3d8ca19cf12654ee88d92c4431be821c -> 
+  custom:scripting/monoscript/fileName/MainThreadDispatcher.cs: 5a5a80e912004c6f16c766fe6b72c10f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog: c722fe5f56fb92ea5057d52c550f9d3e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 40f97ae5c7577c2b25ebec4edba4c0cd -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 7b853e46e47daf3f3e2c04b55aa43046 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.YamlDotNet: 83f2883553a8b3bfe60611f2390ceaa5 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.SynchronizerModel: d1ae5fc96f8749ad9711a9713d2fb563 -> 
+  custom:scripting/monoscript/fileName/AboutWindow.cs: 2ddbbd3da103110464df928b5ad7a791 -> 
+  custom:scripting/monoscript/fileName/ScriptFinder.cs: f05960da2883787316ffcdc776da5c36 -> 
+  custom:scripting/monoscript/fileName/ELogger.cs: 092f2adee158289d5761f8c5140463b8 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetMQInitializer.cs: 780e85c15c086938cda4bccbab1503e7 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CommonTools.cs: 3f1a5964c05d8a2cc348f41d9ddaf03c -> 
+  custom:scripting/monoscript/fileName/Binary2TextExec.cs: f9ad1adf660f075d6d8910673cb8e6ec -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.AsyncIO: eea8123eed12402e0b15ed5aeaba5db4 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NaCl: 0133ba83573d4e714eb252103ea9a85c -> 
+  custom:scripting/monoscript/fileName/InputManagerMonitor.cs: 428914c47f891985addf9eb30f31c607 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 4368115f15e0f7d70e2cde328f147548 -> 
+  custom:scripting/monoscript/fileName/DomainHashEnricher.cs: df4c63a37949740dcfc206978453ed1d -> 
+  custom:scripting/monoscript/fileName/PreferenceStorageAccessor.cs: 19a7de6e406f4ba5a4b4dde6c5634732 -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 3edd23c000574571dee2682e2ec930ff -> 
+  custom:scripting/monoscript/fileName/PreferenceMonitor.cs: 421d87bb944dbe4fd6d950727065c991 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PreferenceEntryHolder.cs: 1674d4fb2045280b39d063f53e5cb0f3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LazyInitializer.cs: 7d38f1d4ba03d94066824c634fba2979 -> 
+  custom:scripting/monoscript/fileName/StatusWindow.cs: 46821b2dc1a8f1195d0734848366e465 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NetMQ: 26f9009c155c2fc50e3e56568144cf87 -> 
+  custom:scripting/monoscript/fileName/FeedbackWindow.cs: ca6229df936cd80a6e564756a2587d81 -> 
+  custom:scripting/monoscript/fileName/UnityClassExtensions.cs: 50b4288c4728ff49c546e7dd2d3845e9 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: 1db8cc9d36e46ac2b49c63615175ed70 -> 
+  custom:scripting/monoscript/fileName/Assister.cs: 4f9f2b876aaa0d4382b75d7aa5f1fd6c -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 4dcb2a163422b1287a010b02681cabde -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MemorySink.cs: b7537a87381f3033c444a9b4df748230 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2c78de710af4c0b3fd766b627afa071f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.CodeAssist.Editor: f2f68078edce31ee7712c7f871a8b973 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.337 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.781 seconds
+Domain Reload Profiling: 4101ms
+	BeginReloadAssembly (421ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (736ms)
+		LoadAssemblies (895ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (58ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2782ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1039ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (646ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 11.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.9 MB). Loaded Objects now: 6176.
+Memory consumption went from 194.3 MB to 193.4 MB.
+Total: 12.475100 ms (FindLiveObjects: 1.604700 ms CreateObjectMapping: 1.056900 ms MarkObjects: 9.079700 ms  DeleteObjects: 0.731600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NetMQPublisher.cs: e41cae8b306c4e80834941db5e54bf4f -> 
+  custom:scripting/monoscript/fileName/Monitor.cs: 5bb953e66b355df950735459a3e63f5d -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile: f9f6d4f71239205fa5cc093ab0e3407b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnityInputManager.cs: fd4ab10cd8b42640792fb824a33f4bf0 -> 
+  custom:scripting/monoscript/fileName/Text2Yaml.cs: 089f6fdeeba09f1b3353b00bf8a6d240 -> 
+  custom:scripting/monoscript/fileName/RegistryMonitor.cs: d0b29158d7fd3272be0638e395924608 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UnitySink.cs: caaf2e076a1a93c61a227e7104270a42 -> 
+  custom:scripting/monoscript/fileName/JsonParser.cs: 3d8ca19cf12654ee88d92c4431be821c -> 
+  custom:scripting/monoscript/fileName/MainThreadDispatcher.cs: 5a5a80e912004c6f16c766fe6b72c10f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog: c722fe5f56fb92ea5057d52c550f9d3e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 40f97ae5c7577c2b25ebec4edba4c0cd -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 7b853e46e47daf3f3e2c04b55aa43046 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.YamlDotNet: 83f2883553a8b3bfe60611f2390ceaa5 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.SynchronizerModel: d1ae5fc96f8749ad9711a9713d2fb563 -> 
+  custom:scripting/monoscript/fileName/AboutWindow.cs: 2ddbbd3da103110464df928b5ad7a791 -> 
+  custom:scripting/monoscript/fileName/ScriptFinder.cs: f05960da2883787316ffcdc776da5c36 -> 
+  custom:scripting/monoscript/fileName/ELogger.cs: 092f2adee158289d5761f8c5140463b8 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetMQInitializer.cs: 780e85c15c086938cda4bccbab1503e7 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CommonTools.cs: 3f1a5964c05d8a2cc348f41d9ddaf03c -> 
+  custom:scripting/monoscript/fileName/Binary2TextExec.cs: f9ad1adf660f075d6d8910673cb8e6ec -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.AsyncIO: eea8123eed12402e0b15ed5aeaba5db4 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NaCl: 0133ba83573d4e714eb252103ea9a85c -> 
+  custom:scripting/monoscript/fileName/InputManagerMonitor.cs: 428914c47f891985addf9eb30f31c607 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 4368115f15e0f7d70e2cde328f147548 -> 
+  custom:scripting/monoscript/fileName/DomainHashEnricher.cs: df4c63a37949740dcfc206978453ed1d -> 
+  custom:scripting/monoscript/fileName/PreferenceStorageAccessor.cs: 19a7de6e406f4ba5a4b4dde6c5634732 -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 3edd23c000574571dee2682e2ec930ff -> 
+  custom:scripting/monoscript/fileName/PreferenceMonitor.cs: 421d87bb944dbe4fd6d950727065c991 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PreferenceEntryHolder.cs: 1674d4fb2045280b39d063f53e5cb0f3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LazyInitializer.cs: 7d38f1d4ba03d94066824c634fba2979 -> 
+  custom:scripting/monoscript/fileName/StatusWindow.cs: 46821b2dc1a8f1195d0734848366e465 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NetMQ: 26f9009c155c2fc50e3e56568144cf87 -> 
+  custom:scripting/monoscript/fileName/FeedbackWindow.cs: ca6229df936cd80a6e564756a2587d81 -> 
+  custom:scripting/monoscript/fileName/UnityClassExtensions.cs: 50b4288c4728ff49c546e7dd2d3845e9 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: 1db8cc9d36e46ac2b49c63615175ed70 -> 
+  custom:scripting/monoscript/fileName/Assister.cs: 4f9f2b876aaa0d4382b75d7aa5f1fd6c -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 4dcb2a163422b1287a010b02681cabde -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MemorySink.cs: b7537a87381f3033c444a9b4df748230 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2c78de710af4c0b3fd766b627afa071f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.CodeAssist.Editor: f2f68078edce31ee7712c7f871a8b973 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.055 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.643 seconds
+Domain Reload Profiling: 3684ms
+	BeginReloadAssembly (314ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (701ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (971ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (622ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 30.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.9 MB). Loaded Objects now: 6181.
+Memory consumption went from 194.4 MB to 193.5 MB.
+Total: 8.529100 ms (FindLiveObjects: 0.544600 ms CreateObjectMapping: 0.557500 ms MarkObjects: 6.790500 ms  DeleteObjects: 0.634700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NetMQPublisher.cs: e41cae8b306c4e80834941db5e54bf4f -> 
+  custom:scripting/monoscript/fileName/Monitor.cs: 5bb953e66b355df950735459a3e63f5d -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile: f9f6d4f71239205fa5cc093ab0e3407b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnityInputManager.cs: fd4ab10cd8b42640792fb824a33f4bf0 -> 
+  custom:scripting/monoscript/fileName/Text2Yaml.cs: 089f6fdeeba09f1b3353b00bf8a6d240 -> 
+  custom:scripting/monoscript/fileName/RegistryMonitor.cs: d0b29158d7fd3272be0638e395924608 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UnitySink.cs: caaf2e076a1a93c61a227e7104270a42 -> 
+  custom:scripting/monoscript/fileName/JsonParser.cs: 3d8ca19cf12654ee88d92c4431be821c -> 
+  custom:scripting/monoscript/fileName/MainThreadDispatcher.cs: 5a5a80e912004c6f16c766fe6b72c10f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog: c722fe5f56fb92ea5057d52c550f9d3e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 40f97ae5c7577c2b25ebec4edba4c0cd -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 7b853e46e47daf3f3e2c04b55aa43046 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.YamlDotNet: 83f2883553a8b3bfe60611f2390ceaa5 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.SynchronizerModel: d1ae5fc96f8749ad9711a9713d2fb563 -> 
+  custom:scripting/monoscript/fileName/AboutWindow.cs: 2ddbbd3da103110464df928b5ad7a791 -> 
+  custom:scripting/monoscript/fileName/ScriptFinder.cs: f05960da2883787316ffcdc776da5c36 -> 
+  custom:scripting/monoscript/fileName/ELogger.cs: 092f2adee158289d5761f8c5140463b8 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetMQInitializer.cs: 780e85c15c086938cda4bccbab1503e7 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CommonTools.cs: 3f1a5964c05d8a2cc348f41d9ddaf03c -> 
+  custom:scripting/monoscript/fileName/Binary2TextExec.cs: f9ad1adf660f075d6d8910673cb8e6ec -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.AsyncIO: eea8123eed12402e0b15ed5aeaba5db4 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NaCl: 0133ba83573d4e714eb252103ea9a85c -> 
+  custom:scripting/monoscript/fileName/InputManagerMonitor.cs: 428914c47f891985addf9eb30f31c607 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 4368115f15e0f7d70e2cde328f147548 -> 
+  custom:scripting/monoscript/fileName/DomainHashEnricher.cs: df4c63a37949740dcfc206978453ed1d -> 
+  custom:scripting/monoscript/fileName/PreferenceStorageAccessor.cs: 19a7de6e406f4ba5a4b4dde6c5634732 -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 3edd23c000574571dee2682e2ec930ff -> 
+  custom:scripting/monoscript/fileName/PreferenceMonitor.cs: 421d87bb944dbe4fd6d950727065c991 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PreferenceEntryHolder.cs: 1674d4fb2045280b39d063f53e5cb0f3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LazyInitializer.cs: 7d38f1d4ba03d94066824c634fba2979 -> 
+  custom:scripting/monoscript/fileName/StatusWindow.cs: 46821b2dc1a8f1195d0734848366e465 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NetMQ: 26f9009c155c2fc50e3e56568144cf87 -> 
+  custom:scripting/monoscript/fileName/FeedbackWindow.cs: ca6229df936cd80a6e564756a2587d81 -> 
+  custom:scripting/monoscript/fileName/UnityClassExtensions.cs: 50b4288c4728ff49c546e7dd2d3845e9 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: 1db8cc9d36e46ac2b49c63615175ed70 -> 
+  custom:scripting/monoscript/fileName/Assister.cs: 4f9f2b876aaa0d4382b75d7aa5f1fd6c -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 4dcb2a163422b1287a010b02681cabde -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MemorySink.cs: b7537a87381f3033c444a9b4df748230 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2c78de710af4c0b3fd766b627afa071f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.CodeAssist.Editor: f2f68078edce31ee7712c7f871a8b973 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.163 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.961 seconds
+Domain Reload Profiling: 4112ms
+	BeginReloadAssembly (326ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (647ms)
+		LoadAssemblies (779ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2962ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1215ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (743ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 26.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.9 MB). Loaded Objects now: 6186.
+Memory consumption went from 194.4 MB to 193.5 MB.
+Total: 10.130200 ms (FindLiveObjects: 1.709200 ms CreateObjectMapping: 0.702600 ms MarkObjects: 7.175000 ms  DeleteObjects: 0.541600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NetMQPublisher.cs: e41cae8b306c4e80834941db5e54bf4f -> 
+  custom:scripting/monoscript/fileName/Monitor.cs: 5bb953e66b355df950735459a3e63f5d -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile: f9f6d4f71239205fa5cc093ab0e3407b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnityInputManager.cs: fd4ab10cd8b42640792fb824a33f4bf0 -> 
+  custom:scripting/monoscript/fileName/Text2Yaml.cs: 089f6fdeeba09f1b3353b00bf8a6d240 -> 
+  custom:scripting/monoscript/fileName/RegistryMonitor.cs: d0b29158d7fd3272be0638e395924608 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UnitySink.cs: caaf2e076a1a93c61a227e7104270a42 -> 
+  custom:scripting/monoscript/fileName/JsonParser.cs: 3d8ca19cf12654ee88d92c4431be821c -> 
+  custom:scripting/monoscript/fileName/MainThreadDispatcher.cs: 5a5a80e912004c6f16c766fe6b72c10f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog: c722fe5f56fb92ea5057d52c550f9d3e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 40f97ae5c7577c2b25ebec4edba4c0cd -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 7b853e46e47daf3f3e2c04b55aa43046 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.YamlDotNet: 83f2883553a8b3bfe60611f2390ceaa5 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.SynchronizerModel: d1ae5fc96f8749ad9711a9713d2fb563 -> 
+  custom:scripting/monoscript/fileName/AboutWindow.cs: 2ddbbd3da103110464df928b5ad7a791 -> 
+  custom:scripting/monoscript/fileName/ScriptFinder.cs: f05960da2883787316ffcdc776da5c36 -> 
+  custom:scripting/monoscript/fileName/ELogger.cs: 092f2adee158289d5761f8c5140463b8 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetMQInitializer.cs: 780e85c15c086938cda4bccbab1503e7 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CommonTools.cs: 3f1a5964c05d8a2cc348f41d9ddaf03c -> 
+  custom:scripting/monoscript/fileName/Binary2TextExec.cs: f9ad1adf660f075d6d8910673cb8e6ec -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.AsyncIO: eea8123eed12402e0b15ed5aeaba5db4 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NaCl: 0133ba83573d4e714eb252103ea9a85c -> 
+  custom:scripting/monoscript/fileName/InputManagerMonitor.cs: 428914c47f891985addf9eb30f31c607 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 4368115f15e0f7d70e2cde328f147548 -> 
+  custom:scripting/monoscript/fileName/DomainHashEnricher.cs: df4c63a37949740dcfc206978453ed1d -> 
+  custom:scripting/monoscript/fileName/PreferenceStorageAccessor.cs: 19a7de6e406f4ba5a4b4dde6c5634732 -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 3edd23c000574571dee2682e2ec930ff -> 
+  custom:scripting/monoscript/fileName/PreferenceMonitor.cs: 421d87bb944dbe4fd6d950727065c991 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PreferenceEntryHolder.cs: 1674d4fb2045280b39d063f53e5cb0f3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LazyInitializer.cs: 7d38f1d4ba03d94066824c634fba2979 -> 
+  custom:scripting/monoscript/fileName/StatusWindow.cs: 46821b2dc1a8f1195d0734848366e465 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NetMQ: 26f9009c155c2fc50e3e56568144cf87 -> 
+  custom:scripting/monoscript/fileName/FeedbackWindow.cs: ca6229df936cd80a6e564756a2587d81 -> 
+  custom:scripting/monoscript/fileName/UnityClassExtensions.cs: 50b4288c4728ff49c546e7dd2d3845e9 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: 1db8cc9d36e46ac2b49c63615175ed70 -> 
+  custom:scripting/monoscript/fileName/Assister.cs: 4f9f2b876aaa0d4382b75d7aa5f1fd6c -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 4dcb2a163422b1287a010b02681cabde -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MemorySink.cs: b7537a87381f3033c444a9b4df748230 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2c78de710af4c0b3fd766b627afa071f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.CodeAssist.Editor: f2f68078edce31ee7712c7f871a8b973 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.045 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.551 seconds
+Domain Reload Profiling: 3585ms
+	BeginReloadAssembly (320ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (549ms)
+		LoadAssemblies (670ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2552ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (948ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 23.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.9 MB). Loaded Objects now: 6191.
+Memory consumption went from 194.4 MB to 193.5 MB.
+Total: 10.126500 ms (FindLiveObjects: 0.809900 ms CreateObjectMapping: 1.262700 ms MarkObjects: 7.152700 ms  DeleteObjects: 0.899500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NetMQPublisher.cs: e41cae8b306c4e80834941db5e54bf4f -> 
+  custom:scripting/monoscript/fileName/Monitor.cs: 5bb953e66b355df950735459a3e63f5d -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile: f9f6d4f71239205fa5cc093ab0e3407b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnityInputManager.cs: fd4ab10cd8b42640792fb824a33f4bf0 -> 
+  custom:scripting/monoscript/fileName/Text2Yaml.cs: 089f6fdeeba09f1b3353b00bf8a6d240 -> 
+  custom:scripting/monoscript/fileName/RegistryMonitor.cs: d0b29158d7fd3272be0638e395924608 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UnitySink.cs: caaf2e076a1a93c61a227e7104270a42 -> 
+  custom:scripting/monoscript/fileName/JsonParser.cs: 3d8ca19cf12654ee88d92c4431be821c -> 
+  custom:scripting/monoscript/fileName/MainThreadDispatcher.cs: 5a5a80e912004c6f16c766fe6b72c10f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.Serilog: c722fe5f56fb92ea5057d52c550f9d3e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 40f97ae5c7577c2b25ebec4edba4c0cd -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 7b853e46e47daf3f3e2c04b55aa43046 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.YamlDotNet: 83f2883553a8b3bfe60611f2390ceaa5 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.SynchronizerModel: d1ae5fc96f8749ad9711a9713d2fb563 -> 
+  custom:scripting/monoscript/fileName/AboutWindow.cs: 2ddbbd3da103110464df928b5ad7a791 -> 
+  custom:scripting/monoscript/fileName/ScriptFinder.cs: f05960da2883787316ffcdc776da5c36 -> 
+  custom:scripting/monoscript/fileName/ELogger.cs: 092f2adee158289d5761f8c5140463b8 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NetMQInitializer.cs: 780e85c15c086938cda4bccbab1503e7 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CommonTools.cs: 3f1a5964c05d8a2cc348f41d9ddaf03c -> 
+  custom:scripting/monoscript/fileName/Binary2TextExec.cs: f9ad1adf660f075d6d8910673cb8e6ec -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.AsyncIO: eea8123eed12402e0b15ed5aeaba5db4 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NaCl: 0133ba83573d4e714eb252103ea9a85c -> 
+  custom:scripting/monoscript/fileName/InputManagerMonitor.cs: 428914c47f891985addf9eb30f31c607 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 4368115f15e0f7d70e2cde328f147548 -> 
+  custom:scripting/monoscript/fileName/DomainHashEnricher.cs: df4c63a37949740dcfc206978453ed1d -> 
+  custom:scripting/monoscript/fileName/PreferenceStorageAccessor.cs: 19a7de6e406f4ba5a4b4dde6c5634732 -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 3edd23c000574571dee2682e2ec930ff -> 
+  custom:scripting/monoscript/fileName/PreferenceMonitor.cs: 421d87bb944dbe4fd6d950727065c991 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PreferenceEntryHolder.cs: 1674d4fb2045280b39d063f53e5cb0f3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LazyInitializer.cs: 7d38f1d4ba03d94066824c634fba2979 -> 
+  custom:scripting/monoscript/fileName/StatusWindow.cs: 46821b2dc1a8f1195d0734848366e465 -> 
+  custom:scripting/precompiled-assembly-types:Meryel.UnityCodeAssist.NetMQ: 26f9009c155c2fc50e3e56568144cf87 -> 
+  custom:scripting/monoscript/fileName/FeedbackWindow.cs: ca6229df936cd80a6e564756a2587d81 -> 
+  custom:scripting/monoscript/fileName/UnityClassExtensions.cs: 50b4288c4728ff49c546e7dd2d3845e9 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: 1db8cc9d36e46ac2b49c63615175ed70 -> 
+  custom:scripting/monoscript/fileName/Assister.cs: 4f9f2b876aaa0d4382b75d7aa5f1fd6c -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 4dcb2a163422b1287a010b02681cabde -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MemorySink.cs: b7537a87381f3033c444a9b4df748230 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2c78de710af4c0b3fd766b627afa071f -> 
+  custom:scripting/precompiled-assembly-types:Meryel.CodeAssist.Editor: f2f68078edce31ee7712c7f871a8b973 -> 
