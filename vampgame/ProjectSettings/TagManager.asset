@@ -12,7 +12,11 @@ TagManager:
   - Water
   - UI
   - Ground
+<<<<<<< HEAD
   - Enemy
+=======
+  - Hostile
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
   - 
   - 
   - 

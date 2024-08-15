@@ -15,6 +15,7 @@ C:/Users/rehrm/Games/pgj8game/vampgame
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
 65327
 Successfully changed project path to: P:/GameDev/Unity Project/Projects/pgj8game/vampgame
@@ -24,6 +25,17 @@ P:/GameDev/Unity Project/Projects/pgj8game/vampgame
 Successfully changed project path to: C:/Users/rehrm/Games/pgj8game/vampgame
 C:/Users/rehrm/Games/pgj8game/vampgame
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+65327
+Successfully changed project path to: P:/GameDev/Unity Project/Projects/pgj8game/vampgame
+P:/GameDev/Unity Project/Projects/pgj8game/vampgame
+========
+51582
+Successfully changed project path to: C:/Users/rehrm/Games/pgj8game/vampgame
+C:/Users/rehrm/Games/pgj8game/vampgame
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -55,7 +67,11 @@ C:/Users/rehrm/Games/pgj8game/vampgame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Player connection [25204]  Target information:
 
 Player connection [25204]  * "[IP] 192.168.1.116 [Port] 0 [Flags] 2 [Guid] 4280973534 [EditorId] 4280973534 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7AFMETN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -66,7 +82,11 @@ Player connection [25204] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [25204] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 Refreshing native plugins compatible for Editor in 17.41 ms, found 4 plugins.
+<<<<<<< HEAD
 =======
+=======
+========
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Player connection [29552]  Target information:
 
 Player connection [29552]  * "[IP] 10.0.0.86 [Port] 0 [Flags] 2 [Guid] 1403762584 [EditorId] 1403762584 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PVQ42A6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -75,7 +95,11 @@ Player connection [29552] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [29552] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 Refreshing native plugins compatible for Editor in 358.61 ms, found 4 plugins.
+<<<<<<< HEAD
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.41f1 (0f988161febf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -88,7 +112,11 @@ Direct3D:
     VRAM:     12110 MB
     Driver:   31.0.15.5222
 Initialize mono
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Mono path[0] = 'P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
@@ -99,7 +127,11 @@ Register platform support module: P:/GameDev/Unity Project/2022.3.41f1/Editor/Da
 Register platform support module: P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.006012 seconds.
 - Loaded All Assemblies, in  0.369 seconds
+<<<<<<< HEAD
 =======
+=======
+========
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Mono path[0] = 'C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
@@ -109,6 +141,7 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity projects/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.018760 seconds.
 - Loaded All Assemblies, in  1.487 seconds
+<<<<<<< HEAD
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
@@ -121,12 +154,30 @@ Domain Reload Profiling: 625ms
 Domain Reload Profiling: 1915ms
 	BeginReloadAssembly (215ms)
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 625ms
+	BeginReloadAssembly (125ms)
+========
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 1915ms
+	BeginReloadAssembly (215ms)
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (52ms)
@@ -149,7 +200,11 @@ Domain Reload Profiling: 1915ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (148ms)
 			ProcessInitializeOnLoadMethodAttributes (46ms)
+<<<<<<< HEAD
 =======
+=======
+========
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 	RebuildCommonClasses (375ms)
 	RebuildNativeTypeToScriptingClass (17ms)
 	initialDomainReloadingComplete (119ms)
@@ -172,7 +227,11 @@ Domain Reload Profiling: 1915ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (252ms)
 			ProcessInitializeOnLoadMethodAttributes (79ms)
+<<<<<<< HEAD
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -181,18 +240,30 @@ Domain Reload Profiling: 1915ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
 - Loaded All Assemblies, in  0.757 seconds
 =======
 - Loaded All Assemblies, in  1.208 seconds
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+- Loaded All Assemblies, in  0.757 seconds
+========
+- Loaded All Assemblies, in  1.208 seconds
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 - Finished resetting the current domain, in  0.622 seconds
 Domain Reload Profiling: 1378ms
 	BeginReloadAssembly (190ms)
@@ -234,7 +305,11 @@ Unloading 5713 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 56 unused Assets / (0.9 MB). Loaded Objects now: 6157.
 Memory consumption went from 216.8 MB to 215.8 MB.
 Total: 4.414100 ms (FindLiveObjects: 0.525900 ms CreateObjectMapping: 0.186200 ms MarkObjects: 3.232600 ms  DeleteObjects: 0.468100 ms)
+<<<<<<< HEAD
 =======
+=======
+========
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 - Finished resetting the current domain, in  1.072 seconds
 Domain Reload Profiling: 2272ms
 	BeginReloadAssembly (213ms)
@@ -276,7 +351,11 @@ Unloading 5713 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 56 unused Assets / (0.9 MB). Loaded Objects now: 6157.
 Memory consumption went from 216.6 MB to 215.7 MB.
 Total: 7.589600 ms (FindLiveObjects: 0.533700 ms CreateObjectMapping: 0.552800 ms MarkObjects: 6.052900 ms  DeleteObjects: 0.448500 ms)
+<<<<<<< HEAD
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -294,7 +373,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/ProjectileMovement.cs: 9094b748a6614a12ca3a1551f633b2fc -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Received Import Request.
   Time since last request: 23666.173254 seconds.
   path: Assets/Scripts/Enemies/States/PatrolAction.cs
@@ -308,18 +391,30 @@ Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  1.208 seconds
+<<<<<<< HEAD
 =======
+=======
+========
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  1.805 seconds
+<<<<<<< HEAD
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 - Finished resetting the current domain, in  0.695 seconds
 Domain Reload Profiling: 1905ms
 	BeginReloadAssembly (856ms)
@@ -360,7 +455,11 @@ Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 43 unused Assets / (0.9 MB). Loaded Objects now: 6164.
 Memory consumption went from 194.6 MB to 193.7 MB.
 Total: 4.314000 ms (FindLiveObjects: 0.622000 ms CreateObjectMapping: 0.178400 ms MarkObjects: 3.021600 ms  DeleteObjects: 0.490800 ms)
+<<<<<<< HEAD
 =======
+=======
+========
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 - Finished resetting the current domain, in  1.039 seconds
 Domain Reload Profiling: 2839ms
 	BeginReloadAssembly (1213ms)
@@ -401,7 +500,11 @@ Unloading 5575 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 43 unused Assets / (0.9 MB). Loaded Objects now: 6163.
 Memory consumption went from 194.4 MB to 193.5 MB.
 Total: 6.308500 ms (FindLiveObjects: 0.590000 ms CreateObjectMapping: 0.813800 ms MarkObjects: 4.289000 ms  DeleteObjects: 0.614600 ms)
+<<<<<<< HEAD
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -420,7 +523,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/monoscript/fileName/ProjectileMovement.cs: 9094b748a6614a12ca3a1551f633b2fc -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: bd18c70e3bde06869cd554aabba0aff8 -> 95d7ddf1f3bfd14a740fc755b4e037a1
 ========================================================================
 Received Import Request.
@@ -429,7 +536,11 @@ Received Import Request.
   artifactKey: Guid(7cb7c8977eb47e94e84b058896960120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Enemies/States/PatrolAction.cs using Guid(7cb7c8977eb47e94e84b058896960120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
  -> (artifact id: '1254ce34ac330d26533e1cce66cdfda7') in 0.005995 seconds
+<<<<<<< HEAD
 =======
+=======
+========
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 ========================================================================
 Received Import Request.
   Time since last request: 115476.265686 seconds.
@@ -437,12 +548,20 @@ Received Import Request.
   artifactKey: Guid(9fa1bd483a3529a459cc137e68c65401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Projectile(Homing).prefab using Guid(9fa1bd483a3529a459cc137e68c65401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
  -> (artifact id: '3874bad1cfedeca9b1c7ef554c24f578') in 0.003192 seconds
+<<<<<<< HEAD
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+=======
+<<<<<<<< HEAD:vampgame/Logs/AssetImportWorker0-prev.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
   Time since last request: 2490.860668 seconds.
   path: Assets/Scripts/Enemies/States/PatrolAction.cs
   artifactKey: Guid(7cb7c8977eb47e94e84b058896960120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1650,12 +1769,20 @@ Received Import Request.
   artifactKey: Guid(909dcd57a92359841a4f134f712e4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Enemies/States/ChaseAction.cs using Guid(909dcd57a92359841a4f134f712e4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
  -> (artifact id: '5500d1dcf83448000392ed414acfdd13') in 0.014519 seconds
+<<<<<<< HEAD
 =======
+=======
+========
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
   Time since last request: 28.465542 seconds.
   path: Assets/Projectile(Homing).prefab
   artifactKey: Guid(9fa1bd483a3529a459cc137e68c65401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Projectile(Homing).prefab using Guid(9fa1bd483a3529a459cc137e68c65401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
  -> (artifact id: '3874bad1cfedeca9b1c7ef554c24f578') in 0.000653 seconds
+<<<<<<< HEAD
 >>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+=======
+>>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185:vampgame/Logs/AssetImportWorker3.log
+>>>>>>> d1b357cf6a6de4a503217f19f416ece447a28185
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
