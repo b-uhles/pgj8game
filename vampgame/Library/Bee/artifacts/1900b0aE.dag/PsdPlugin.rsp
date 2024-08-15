@@ -118,6 +118,14 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll"
+-r:"Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.AsyncIO.dll"
+-r:"Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NaCl.dll"
+-r:"Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.NetMQ.dll"
+-r:"Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.dll"
+-r:"Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Serilog.Sinks.PersistentFile.dll"
+-r:"Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.SynchronizerModel.dll"
+-r:"Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.YamlDotNet.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.4.4/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"

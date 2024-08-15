@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dff8cff7172f3f4b826210912de51c0, type: 3}
+  m_Name: SpottedPlayer
+  m_EditorClassIdentifier: 
+  Decision: {fileID: 11400000, guid: 5eaa195e9d5584f4295c0156c9f59f69, type: 2}
+  TrueState: {fileID: 11400000, guid: 8c0241089ea32b0498e58ade890ba51a, type: 2}
+  FalseState: {fileID: 11400000, guid: eba931bf33d8f594dabac318652b0e34, type: 2}
