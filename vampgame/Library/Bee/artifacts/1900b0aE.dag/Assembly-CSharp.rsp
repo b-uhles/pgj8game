@@ -120,6 +120,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll"
 -r:"Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -327,6 +328,11 @@
 -r:"P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AstarPathfindingProject.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/AstarPathfindingProjectEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/NavMeshPlus.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/NavMeshPlusEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PackageToolsEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
@@ -347,6 +353,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Extras.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Extras.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Collections.ref.dll"
@@ -384,6 +394,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"P:/GameDev/Unity Project/2022.3.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/Enemies/BaseEnemy.cs"
+"Assets/Scripts/Enemies/EnemySight.cs"
+"Assets/Scripts/Enemies/PatrolPoints.cs"
 "Assets/Scripts/Enemies/StateMachine/BaseState.cs"
 "Assets/Scripts/Enemies/StateMachine/BaseStateMachine.cs"
 "Assets/Scripts/Enemies/StateMachine/Decision.cs"
@@ -391,6 +404,9 @@
 "Assets/Scripts/Enemies/StateMachine/State.cs"
 "Assets/Scripts/Enemies/StateMachine/StateAction.cs"
 "Assets/Scripts/Enemies/StateMachine/Transition.cs"
+"Assets/Scripts/Enemies/States/ChaseAction.cs"
+"Assets/Scripts/Enemies/States/LineOfSightDecision.cs"
+"Assets/Scripts/Enemies/States/PatrolAction.cs"
 "Assets/Scripts/Player/Movement.cs"
 -langversion:9.0
 /deterministic
