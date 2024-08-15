@@ -19,7 +19,7 @@ public class BaseStateMachine : MonoBehaviour
         CurrentState = _initialState;
         _components = new Dictionary<Type, Component>();
     }
-    void Update()
+    void FixedUpdate()
     {
         // Execute the current state every frame
         CurrentState.Execute(this);
