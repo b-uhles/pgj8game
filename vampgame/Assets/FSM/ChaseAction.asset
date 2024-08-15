@@ -12,3 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 909dcd57a92359841a4f134f712e4cab, type: 3}
   m_Name: ChaseAction
   m_EditorClassIdentifier: 
+  speed: 100
+  stoppingDistance: 1
+  nextWaypointDistance: 3
+  turnSpeed: 5
+  distanceToTarget: 0
