@@ -9,9 +9,13 @@ public class Movement : MonoBehaviour
     private float speed = 8f;
     private float jumpingpower = 16f;
     private bool isFacingRight = true;
+    private bool isDashing = false;
+    private float timeToDash = 0.5f;
+    private float time = 0f;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
+    [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask groundlayer;
 
 
@@ -19,23 +23,37 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDashing)
+        {
+            time += Time.deltaTime;
+            if (time > timeToDash)
+            {
+                time = 0;
+                isDashing = false;
+            }
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+            Dash();
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if(Input.GetButtonDown("Jump") && IsOnGround())
-        {
+        if (Input.GetButtonDown("Jump") && IsOnGround())
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
-        }
 
-        if(Input.GetButtonDown("Jump") && rb.velocity.y > 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y *.5f);
-        }
+        if (Input.GetButtonDown("Jump") && IsOnWall()) 
+            rb.velocity = new Vector2(horizontal * speed, jumpingpower);
+
         Flip();
     }
-
+    private void Dash()
+    {
+        isDashing = true;
+    }
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        if(isDashing) rb.velocity = new Vector2(horizontal * speed * 3, 0);
+        else rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
     private void Flip()
@@ -51,6 +69,11 @@ public class Movement : MonoBehaviour
 
     private bool IsOnGround()
     {
-        return Physics2D.OverlapBox(groundCheck.position,new Vector2(transform.localScale.x,0.2f),0f);
+        return Physics2D.OverlapBox(groundCheck.position,groundCheck.transform.localScale,0f,groundlayer);
+    }
+
+    private bool IsOnWall()
+    {
+        return Physics2D.OverlapBox(wallCheck.position, wallCheck.transform.localScale, 0f, groundlayer);
     }
 }
