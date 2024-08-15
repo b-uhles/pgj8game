@@ -48,11 +48,11 @@ public class EnemySight : MonoBehaviour
     }
 
     // quick and dirty visualizer for raycast
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawRay(this.transform.position, Player.position - this.transform.position);
-        Gizmos.color = Color.green;
-        Gizmos.DrawLine(_ray.origin, _ray.origin + _ray.direction * 100);
-    }
+//     private void OnDrawGizmos()
+//     {
+//         Gizmos.color = Color.red;
+//         Gizmos.DrawRay(this.transform.position, Player.position - this.transform.position);
+//         Gizmos.color = Color.green;
+//         Gizmos.DrawLine(_ray.origin, _ray.origin + _ray.direction * 100);
+//     }
 }
