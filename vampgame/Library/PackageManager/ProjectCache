@@ -5379,6 +5379,7 @@ m_ResolvedPackages:
     - 2.4.0
     - 2.4.1
     - 2.4.2
+    - 2.4.3
     - 2.5.0-exp.1
     - 2.5.0-pre.2
     compatible:
@@ -5403,9 +5404,10 @@ m_ResolvedPackages:
     - 2.4.0
     - 2.4.1
     - 2.4.2
+    - 2.4.3
     - 2.5.0-exp.1
     - 2.5.0-pre.2
-    recommended: 2.4.2
+    recommended: 2.4.3
     deprecated: []
   dependencies:
   - name: com.unity.burst
